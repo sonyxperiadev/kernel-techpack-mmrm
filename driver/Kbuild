@@ -1,4 +1,5 @@
 ifdef CONFIG_MSM_MMRM
+MMRM_ROOT = $(srctree)/techpack/mmrm
 LINUXINCLUDE += -I$(MMRM_ROOT)/driver/src
 
 obj-y += msm-mmrm.o
